@@ -6,9 +6,9 @@ Algoritmos y Programación 2 - FI UBA
 
 Considerando las clases:
 
-    * Mensaje: [`Mensaje.h`](../enunciado/src/Mensaje.h) - [`Mensaje.cpp`](../enunciado/src/Mensaje.cpp)
+* Mensaje: [`Mensaje.h`](../enunciado/src/Mensaje.h) - [`Mensaje.cpp`](../enunciado/src/Mensaje.cpp)
         
-    * Cuenta: [`Cuenta.h`](../enunciado/src/Cuenta.h) - [`Cuenta.cpp`](../enunciado/src/Cuenta.cpp)    
+* Cuenta: [`Cuenta.h`](../enunciado/src/Cuenta.h) - [`Cuenta.cpp`](../enunciado/src/Cuenta.cpp)    
 
 1. Implementar el método `contarMensajesBloqueados` de la clase `Mensajero`:
 
