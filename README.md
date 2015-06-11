@@ -36,5 +36,5 @@ class Mensajero {
 
 * [`Mensajero.h`](../punto-01/src/Mensajero.h)
 
-* [`Mensajero.cpp`](../punto-01/src/Mensajero.h)
+* [`Mensajero.cpp`](../punto-01/src/Mensajero.cpp)
 
