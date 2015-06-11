@@ -12,7 +12,7 @@ Considerando las clases:
 
 1. Implementar el método `contarMensajesBloqueados` de la clase `Mensajero`:
 
-```java
+```c++
 
 class Mensajero {
 
