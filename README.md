@@ -38,3 +38,10 @@ class Mensajero {
 
 * [`Mensajero.cpp`](../punto-01/src/Mensajero.cpp)
 
+**Mejora**: agrega el método `bool Mensaje::estaBloqueado()` para reemplazar `bool Mensajero::estaBloqueado(Mensaje* unMensaje)` y el método `bool Cuenta::tieneBloqueadoA(Cuenta* otraCuenta)` para reemplazar `bool Mensajero::destinatarioBloqueaRemitente(Cuenta* destinatario, Cuenta* remitente)`
+
+* Mensajero: [`Mensajero.h`](../punto-01-mejora/src/Mensajero.h) - [`Mensajero.cpp`](../punto-01-mejora/src/Mensajero.cpp)
+
+* Mensaje: [`Mensaje.h`](../punto-01-mejora/src/Mensaje.h) - [`Mensaje.cpp`](../punto-01-mejora/src/Mensaje.cpp)
+        
+* Cuenta: [`Cuenta.h`](../punto-01-mejora/src/Cuenta.h) - [`Cuenta.cpp`](../punto-01-mejora/src/Cuenta.cpp)    

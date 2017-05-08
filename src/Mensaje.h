@@ -34,6 +34,12 @@ class Mensaje {
          */
         Lista<Cuenta*>* obtenerDestinatarios();
 
+        /**
+         * post: devuelve si uno de los destinatarios
+         *       tiene bloqueado al remitente.
+         */
+        bool estaBloqueado();
+
         /* post: libera los recursos tomados.
          */
         ~Mensaje();

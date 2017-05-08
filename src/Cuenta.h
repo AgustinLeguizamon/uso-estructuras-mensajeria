@@ -27,9 +27,18 @@ class Cuenta {
          */
         Lista<Cuenta*>* obtenerRemitentesBloqueados();
 
+        /*
+         * post: devuelve si la Cuenta tiene a otraCuenta
+         *       como uno de sus remitentes bloqueados.
+         */
+        bool tieneBloqueadoA(Cuenta* otraCuenta);
+
         /* post: libera los recursos tomados.
          */
         ~Cuenta();
 };
 
 #endif /* CUENTA_H_ */
+
+
+

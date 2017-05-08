@@ -28,3 +28,20 @@ Lista<Cuenta*>* Mensaje::obtenerDestinatarios() {
     return this->destinatarios;
 }
 
+bool Mensaje::estaBloqueado() {
+
+    bool estaBloqueado = false;
+
+    this->destinatarios->iniciarCursor();
+
+    while (!estaBloqueado && this->destinatarios->avanzarCursor()) {
+
+        Cuenta* unDestinatario = this->destinatarios->obtenerCursor();
+
+        estaBloqueado = unDestinatario->tieneBloqueadoA(this->remitente);
+
+    }
+
+    return estaBloqueado;
+}
+
